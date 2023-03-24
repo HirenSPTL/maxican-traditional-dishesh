@@ -1,0 +1,16 @@
+
+.imageAndSideContent{
+    display:flex;
+    align-items: center;
+}
+ 
+.imageAndSideContent div{
+    width:50%;
+}
+
+
+.imageAndSideContent .imgDiv img{
+    width:100%;
+}
+
+

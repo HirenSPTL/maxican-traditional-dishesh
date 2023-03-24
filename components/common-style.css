@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+img{
+    vertical-align: top;
+}
+
+
+
+a, button{
+ cursor: pointer;   
+}
+
+
+button{
+    padding:10px 60px;
+    background-color: #ffd7ad;
+    color:#4a1831;
+    border-radius:50px;
+    border:1px solid transparent;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size:1.5vw;
+}
+
+button.darkBtn{
+    background-color: #4a1831;
+    color:#ffd7ad;
+}
+
+
+
+
+p{
+    font-size:1.5vw;
+    font-weight: 400;
+    padding:30px 0;
+}
+
+p.light, h2.light{
+    color:#ffd7ad;
+}
+
+p.dark{
+    color:#4a1831;
+}
+
+
+input[type=text]{
+    padding:15px 40px;
+    border-radius:50px;
+    border:1px solid #ffd7ad;
+    font-size:18px;
+    display:inline;
+    width:430px;
+}
+
+img{
+    width:100%;
+    margin-top:-5px;
+}
+
+h1{
+    font-size:7vw;
+}
+
+h2{
+    color:#4a1831;
+    font-size:4vw;
+    margin:0
+}
+
+section{
+    padding:60px;
+}
+
+section.bannerSection{
+    padding:0;
+}
+
+.pinkBG{
+    background-color: #ffd7ad;
+}
+
+.setContentLeft{
+    text-align:left !important;
+}
+
+.noPaddingBottom{
+    padding-bottom: 0;
+}
+
+.purpleBG{
+    background-color: #4a1831;
+}
+
+.noPadding{
+  padding:0;
+}
+
+.hiddenMobile{
+    display:block;
+}
+
+.hiddenDesktop{
+    display:none;
+}
+
+@media only screen and (max-width:767px){
+ section{
+    padding:20px;
+ }
+
+ p{
+    padding:10px 0;
+    font-size: 2vw;
+ }
+
+ button{
+    padding: 3px 20px;
+ }
+
+.hiddenDesktop{
+    display:block;
+}
+.hiddenMobile{
+    display:none;
+}
+
+}

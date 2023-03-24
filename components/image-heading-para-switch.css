@@ -1,0 +1,16 @@
+.headingParaSection.purpleBG{
+    background-color: #4a1831;
+    color:#ffd7ad;
+}
+
+.headingParaSection .innerContentDiv button{
+    background-color: #ffd7ad !important;
+    color:#4a1831 !important;
+}
+
+
+/* @media only screen and (max-width: 767px){
+    .headingParaSection .innerContentDiv button{
+        font-size: 8px;
+    }
+} */

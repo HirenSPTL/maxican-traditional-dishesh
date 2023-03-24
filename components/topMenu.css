@@ -1,0 +1,142 @@
+.topMenu{
+    background-color: #4a1831;
+    position: sticky;
+    top:0;
+    z-index: 9999;
+    height: 100px;
+}
+
+.topMenu ul{
+    margin:0;
+    padding:30px;
+    background-color: #4a1831;
+    list-style-type:none;
+    text-align: center;
+}
+
+.topMenu ul li{
+    display:inline;
+}
+
+.topMenu.mobileMenu ul, .topMenu.mobileMenu ul li{
+    display:block;
+}
+
+.topMenu ul li a{
+    color:#ffd7ad;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding:30px;
+}
+
+
+/* .menuBtn.crossSpan span:nth-child(2){
+    display: none;
+}
+
+.menuBtn.crossSpan span:nth-child(1){
+    transform: rotate(45deg);
+}
+
+.menuBtn.crossSpan span:nth-child(3){
+    transform: rotate(-45deg);
+} */
+
+/* .menuBtn span{
+    background-color:#ffd7ad;
+    height:1px;
+    display: block;
+    width:100%;
+    margin:1px;
+} */
+
+i.fa.fa-navicon{
+    background-color: #ffd7ad;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .topMenu{
+        height: 50px;
+    }
+    .topMenu ul li a{
+        padding:10px;
+        font-size:10px;
+    }
+    .topMenu ul{
+        padding:20px 10px;
+    }
+
+    .topMenu.mobileMenu{
+        display: block;
+        position: absolute;
+        top: 0;
+        z-index: 9999;
+        width: 100%;
+        float: right;
+        right: 0;
+    }
+
+    .topMenu.mobileMenu ul li:not(:first-child){
+        border-bottom: 1px solid #ffd7ad;
+    }
+
+    .menuBtn{
+        padding: 5px;
+        float: right;
+        width: 3%;
+        vertical-align: middle;
+    }
+
+    
+    /* .menuBtn.crossSpan span{
+        margin:0;
+    } */
+
+    
+
+    /* .menuBtn span{
+        margin:1px;
+    } */
+
+
+    /* .topMenu.mobileMenu ul li{
+        border-bottom: 1px solid #ffd7ad;
+    } */
+
+    /* .topMenu.mobileMenu ul{
+        margin-top: 15%;
+    }
+    */
+    
+    .menuBtn label span{
+        background-color: #ffd7ad;
+        width:18px;
+        height:2px;
+        display: block;
+        position: relative;
+    }
+
+    .menuBtn label span:before{
+        background-color: #ffd7ad;
+        width:18px;
+        height:2px;
+        display: block;
+        position: absolute;
+        margin-top:5px;
+        content: '';
+    }
+
+    .menuBtn label span:after{
+        background-color: #ffd7ad;
+        width:18px;
+        height:2px;
+        display: block;
+        position: absolute;
+        margin-top:-5px;
+        content: '';
+    }
+    
+    
+    
+}

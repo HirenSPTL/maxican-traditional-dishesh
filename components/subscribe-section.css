@@ -1,0 +1,41 @@
+input[type=text],.subscribe_btn {
+    border-radius:50px;
+    border:1px solid #fff;
+    padding:12px;
+    width:60%;
+    font-size: 12px;
+}
+
+.subscribe_btn{
+    background-color: #4a1831;
+    border-radius:50px;
+    border:1px solid #4a1831;
+    padding:12px;
+    width:30%;
+    color:#fff !important;
+    margin-left:-50px;
+    font-size: 12px;
+}
+
+/* button.subscribe_btn{
+    background-color: #4a1831;
+    color:#fff;
+    padding:15px 40px;
+    font-size:18px;
+    margin-left:-60px;
+} */
+
+@media only screen and (max-width: 767px){
+    input[type=text], .subscribe_btn {
+        padding: 5px 10px;
+        width:60%;
+        font-size: 7px;
+    }
+    
+    .subscribe_btn{
+        width: 40%;
+        text-align: center;
+    }
+    
+}
+

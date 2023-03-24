@@ -1,0 +1,48 @@
+.offerSection{
+  display:flex;
+  justify-content: end;
+  position: relative;
+ }
+ 
+ .offerSection img{
+    width:80%;
+ }
+ 
+ .offerSection .offerDiv{
+     position: absolute;
+     left:5%;
+     top:10%;
+ }
+ 
+ .offerSection .offerDiv h1{
+     color:#e63956;
+     font-size:8vw;
+     padding:0;
+     margin:0;
+ }
+ 
+ .offerSection .offerDiv h5{
+     color:#55112e;
+     font-size:3vw;
+     font-weight:900;
+     padding:0;
+     margin:0;
+     line-height:0;
+     text-transform: uppercase !important;
+ }
+ 
+ .offerSection .offerDiv h3{
+     color:#6cc5ac;
+     font-size:6vw;
+     font-weight:900;
+     padding:10px 0;
+     margin:0;
+ }
+
+
+ @media only screen and (max-width: 767px){
+  .offerSection .offerDiv h3{
+    padding: 3px 0;
+  }
+ }
+ 
